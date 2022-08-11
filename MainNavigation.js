@@ -1,6 +1,8 @@
 import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import Home from './components/Home';
+import Emergency from './components/Emergency';
 
 const Tab = createBottomTabNavigator();
 
