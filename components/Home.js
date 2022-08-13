@@ -36,6 +36,7 @@ export default function Home() {
             source={require('../assets/dose.webp')}
           />
         </View>
+        <View style={styles.divider}></View>
       </View>
     </TouchableWithoutFeedback>
   );
@@ -76,4 +77,10 @@ const styles = StyleSheet.create({
   heading: {},
   headingText: { color: 'white', fontSize: 30, fontWeight: '700' },
   headingImage: { width: 150, height: 90, borderRadius: 15 },
+  divider: {
+    width: '100%',
+    backgroundColor: '#3e4f7a',
+    height: 3,
+    marginTop: 15,
+  },
 });
